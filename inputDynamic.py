@@ -7,11 +7,11 @@ team_occupation = ["BE Developer" , "BE Developer" , "QA Engineer" , "Full Stack
 
 print("Total Team Members = " + str(len(team_members)))
 
-member_num = int(input("Enter member number (1-7): ")) - 1
+member_num = int(input("Enter member number (1-7): ")) - 1      # enter number 1-7 takeen as str then convert to int and after subtract 1 
 
 if 0 <= member_num < len(team_members):
     print("Member {} is {} and age is {} coordinates are {} location is {} and occupation is {} Right now status is {}".format(
-        member_num + 1,
+        member_num + 1,       # me_n = 0 +1 = 1 
         team_members[member_num],
         team_age[member_num],
         team_coordinates[member_num],
